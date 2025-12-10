@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;    
+}
+
+
+body{
+
+
+}
+
+.tela-principal{
+    /* border: 1px solid red; */
+    display: block;
+    width: 100%;
+
+}
+
+.barra-nav{    
+border: 1px solid #000;
+}
+
+.barra-nav-conteudo{
+    display: flex;    
+    justify-content: space-between;    
+    margin-top: 0px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+
+.painel-boas-vindas{
+margin: 10px;
+}
+
+.painel-boas-vindas p{
+    margin: 10px;
+    /* border: 1px solid #000; */
+    padding: 10px;
+    border-radius: 10px;    
+    border: none;
+    
+}
+
+.painel-boas-vindas button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;   
+    cursor: pointer;
+}
+
+.painel-cards{
+    /* border: 1px solid red;         */
+    width: 100%;       
+    padding: 10px;    
+}
+
+
+
+.painel-cards .card{
+    width: 100%;            
+    border: 2px solid #000;               
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.painel-cards .card .turma-titulo{
+    padding: 10px;
+    border-radius: 10px;   
+    margin: 10px;
+}
+
+.painel-cards .card .imagem{
+    text-align: center;
+    margin: 10px;
+}
+
+.painel-cards .card .descricao{
+    /* border: 1px solid red; */
+    text-align: center;    
+    border: none;
+    padding: 10px;
+}
+
+.painel-cards .card .descricao button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;   
+    cursor: pointer;
+}
+
+.painel-cards .card p{
+    margin: 10px;
+    text-align: center;
+}
+
+
+.footer{
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,13 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <i class="fa-solid fa-face-angry fa-3x emoji"></i>
+ <i class="fa-solid fa-face-sad-cry fa-3x emoji"></i>
+ <i class="fa-solid fa-face-tired fa-3x emoji"></i>
+ <i class="fa-solid fa-face-surprise fa-3x emoji"></i>
+ <i class="fa-solid fa-face-laugh fa-3x emoji"></i>
+
+<i class="fa-solid fa-star fa-2x active"></i>
+<i class="fa-solid fa-star fa-2x"></i>
+<i class="fa-solid fa-star fa-2x"></i>
+<i class="fa-solid fa-star fa-2x"></i>
+<i class="fa-solid fa-star fa-2x"></i>

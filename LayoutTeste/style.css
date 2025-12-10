@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;    
+}
+
+:root{
+    --purple: #3B0270;
+    --neon: #6F00FF;
+    --pink:#E9B3FB;
+    --bege:#FFF1F1;
+
+    --text-dark: #222;
+    --text-light: #fff;
+}
+
+/* ===== BODY ===== */
+body{
+    background: var(--bege);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+.barra-nav{    
+    background: var(--purple);
+    color: var(--text-light);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.barra-nav-conteudo{
+    display: flex;    
+    justify-content: space-between;    
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.barra-nav h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* ===== PAINEL BOAS VINDAS ===== */
+.painel-boas-vindas{
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+    padding: 20px;
+}
+
+.painel-boas-vindas h2{
+    color: var(--purple);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.painel-boas-vindas p{
+    background: var(--pink);
+    padding: 15px;
+    border-radius: 12px;
+    color: var(--text-dark);
+}
+
+.painel-boas-vindas button{
+    margin-top: 15px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;   
+    background: var(--neon);
+    color: var(--text-light);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.painel-boas-vindas button:hover{
+    background: var(--purple);
+}
+
+/* ===== CARDS ===== */
+.painel-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.painel-cards .card{
+    background: white;           
+    border: none;               
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.painel-cards .card .turma-titulo{
+    background: var(--pink);
+    color: var(--purple);
+    padding: 10px;
+    border-radius: 8px;   
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    margin: 10px;
+}
+
+.painel-cards .card .imagem img{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.painel-cards .card .descricao{
+    margin-top: 10px;
+    text-align: center;    
+    padding: 10px;
+    color: var(--text-dark);
+}
+
+.painel-cards .card .descricao button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;   
+    cursor: pointer;
+    background: var(--neon);
+    color: var(--text-light);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.painel-cards .card .descricao button:hover{
+    background: var(--purple);
+}
+
+/* ===== FOOTER ===== */
+.footer{
+    text-align: center;
+    padding: 20px;
+    background: var(--purple);
+    color: var(--text-light);
+    margin-top: 30px;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    background: #fafafa;
+}
+
+nav{   
+    background: #000;   
+    color: #Ffff; 
+    display: flex;
+    align-items: center;    
+    padding: 10px;
+    
+}
+
+nav img{
+    width: 5%;    
+    margin-left: 10%;
+    margin-right: 10px;
+}
+
+.hero-section{
+    margin-top: 5%;
+}
+
+.flex{
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.txt-leads small img{
+    width: 10px;
+}
+
+.txt-leads{
+    width: 50%;
+    justify-content: center;    
+}
+
+.txt-leads p {
+    padding-top: 20px;
+}
+
+.txt-leads button{
+    border: none;
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.txt-leads .icones-servicos{
+    display: flex;    
+}
+
+.txt-leads .icones-servicos p{
+    margin-right: 15px;
+}
+
+.flex .txt-criativo img{
+    width: 300px;
+}
+
+/* --------------CARD------------ */
+.painel-cards{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.descricao p{
+    text-align: center;
+}
+.card{
+    border: 1px solid #bbbaba;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card .info-card{
+    display: flex;
+    margin-top: 20px;
+}
+.card .info-card img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.card button{
+    display: flex;
+    margin-top: 5px;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #01cb41;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.card button img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+/* ============= VERSÃO MOBILE ============= */
+@media (max-width: 768px) {
+
+    /* ----- Ajuste geral ----- */
+    html, body {
+        overflow-x: hidden;
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    nav img {
+        width: 60px;
+        margin: 0 0 10px 0;
+    }
+
+    nav h1 {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        padding: 0 10px;
+    }
+
+    /* ----- Hero Section ----- */
+    .flex {
+        flex-direction: column;
+        margin: 0 5%;
+    
+    }
+
+    .txt-leads {
+        width: 100%;
+    }
+
+    .txt-leads small img {
+        width: 12px;
+    }
+
+    .txt-leads h1 {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
+    .txt-leads p {
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+        padding-top: 15px;
+    }
+
+    .txt-leads button {
+        width: 60%;
+        padding: 12px;
+        margin: 15px auto;
+        display: block;
+        font-size: 1rem;
+    }
+
+    .txt-leads .icones-servicos {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .txt-leads .icones-servicos p {
+        margin: 5px 10px;
+        font-size: 0.9rem;
+    }
+
+    .txt-criativo img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    /* ----- Cards ----- */
+    .painel-cards {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5%;
+        padding-top: 10%;
+        gap: 25px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 15px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        border-radius: 12px;
+    }
+
+    .descricao p {
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+    }
+
+    .card .info-card {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .card .info-card img {
+        width: 45px;
+    }
+
+    .info-nome h4 {
+        font-size: 1rem;
+    }
+
+    .info-nome p {
+        font-size: 0.85rem;
+    }
+
+    .card button {
+        font-size: 1rem;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .card button img {
+        width: 18px;
+    }
+}

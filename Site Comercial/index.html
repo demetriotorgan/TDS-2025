@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav class="container" aria-label="Barra de navegação principal">
+      <a class="brand" href="#">
+        <span class="brand__logo" aria-hidden="true"></span>
+        <span class="brand__name">MinhaMarca</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Abrir/fechar menu">
+        <span class="hamburger__bars"></span>
+      </label>
+
+      <div class="nav-menu">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Início</a></li>
+          <li><a class="nav-link" href="#">Recursos</a></li>
+          <li><a class="nav-link" href="#">Preços</a></li>
+          <li><a class="nav-link" href="#">Sobre</a></li>
+          <li><a class="nav-link is-cta" href="#">Começar</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="demo-card">
+      <h1>Navbar responsiva somente com HTML + CSS</h1>
+      <p>Este exemplo usa o “checkbox hack” para abrir/fechar o menu no mobile, sem JavaScript. A partir de 768px o menu vira horizontal automaticamente.</p>
+      <div class="chips">
+        <span class="chip">Sem JS</span>
+        <span class="chip">Acessível via teclado</span>
+        <span class="chip">Sticky + sombra</span>
+        <span class="chip">CTA destacado</span>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
